@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Bungee+Shade|Ewert|Freckle+Face|Kumar+One+Outline|Nova+Mono" rel="stylesheet">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>The Bank of Despaire</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h2>Welcome to the Bank of Despaire</h2>
+    </div>
+    <div class = "container">
+      <div class="row">
+        <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <h4>Register a new account:</h4>
+            <form>
+              Name: <input type="text" id="name"><br>
+              Initial Deposit: <input type="text" id="ideposit">
+              <button id="accountbtn" type="btn btn-classic">Enter</button>
+            </form>
+          </div>
+            <div class="col-md-5">
+              <h4>Deposit or withdraw funds:</h4>
+              <form>
+                Deposit Amount: <input type="text" id="deposit">
+                <button id="depositbtn" type="btn btn-classic">Deposit</button><br>
+                Withdrawal Amount: <input type="text" id="withdrawal">
+                <button id="withdrawalbtn" type="btn btn-classic">Withdrawal</button>
+              </form>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-10">
+            <h4>Current Balance: $<span id="balance"></span></h4>
+          </div>
+          <div class="col-md-1">
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
