@@ -1,17 +1,39 @@
+body {
+  background-image: url(../img/bank.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
 .col-md-10 {
-  border: 2px solid black;
+  border: 2px solid red;
+  text-align: center;
+  color: red;
 }
 
 form {
   text-align: center;
-
+  color: red;
+  font-size: 12pt;
 }
 
 .col-md-5 {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid red;
+  color: red;
+}
+.jumbotron {
+  color: red;
+  background-color: black;
+  font-family: 'Creepster', cursive;
+  font-weight: bolder;
+  text-align: center;
+}
+.jumbotron h2 {
+  font-size: 70pt;
 }
 
-.col-md-10 {
-  text-align: center;
+h4 {
+  font-family: 'Creepster', cursive;
+  font-size: 30pt;
 }

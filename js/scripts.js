@@ -29,7 +29,7 @@ $(document).ready(function(){
     $("#ideposit").val("");
     $("#deposit").val("");
     $("#withdrawal").val("");
-    alert("Hello " + inputtedName + "! Welcome to Bank of Despaire. We are here to accommadate your pain and suffering.")
+    alert("Hello " + inputtedName + "! Welcome to Bank of Despair. We are here to accommadate your pain and suffering.")
   });
 
   $("#depositbtn").click(function(event){
